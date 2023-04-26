@@ -1,0 +1,56 @@
+h1{
+    color: blueviolet; /*comentario en css- color de la tipografia*/ 
+    font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+
+h2{color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: bisque;
+}
+ .destacados {
+    font-size: 20 px;
+    font-weight: bold;
+ }
+ h2 {image-orientation: from-image;
+ 
+    text-size-adjust: 20 px;
+}
+
+
+
+
+.contenedor{
+	background-color: rgb(77, 9, 94);
+	/* display: inline-flex; */
+	display: flex; 
+    flex-direction: row;
+justify-content: center;
+}
+
+.item{
+	background-color: #ccc;
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+}
+img { 
+    text-size-adjust: 500px;
+    border-radius: 51px 51px 51px 51px;
+    border-radius: 59px 51px 46px 51px;
+    border: 22px solid #5d0bbd;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+
+}
+
+
+    
+
+
+ 
+
+ 
+
+    
