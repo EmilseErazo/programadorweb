@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	
+<script>
+    const metros = 500;
+    let transporte = " ";
+ if (metros >0 && metros <=1000 ) {
+    transporte =   "pie";
+}else if (metros >1000 && metros <=10000) {
+ transporte= "bicicleta";
+}else if ( metros >10000 && metros <=30000) { 
+ transporte= "colectivo";
+}
+ 
+console.log ( `Para  ${metros } recomendamos ir en ${transporte }`);//tipo de transporte
+
+ 
+
+</script>
