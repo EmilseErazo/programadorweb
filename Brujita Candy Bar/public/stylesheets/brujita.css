@@ -1,0 +1,85 @@
+/* 
+font-family: 'Lilita One', cursive;
+
+font-family: 'Open Sans', sans-serif;
+*/
+footer{ 
+    background-color:grey ;
+}
+
+h1, h2 {
+    font-family: 'Lilita One', cursive;
+}
+
+.hero {
+  background: url(../images/Emma-4.jpg) no-repeat;
+  background-size: cover;
+  height: 50vh;
+  min-height: 600px;
+  width: 1800px;
+  height: 1500px;
+  color: rgb(7, 7, 7);
+}
+
+.lista-novedades{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    background-color: rgb(184, 114, 249);
+    font-family:'Lilita One', cursive; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(7, 7, 7);
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover {
+    color: rgb(242, 102, 237);
+    background-color: rgb(250, 152, 245);
+}
+
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2 ease-in-out;
+    margin-right: 4rem;
+    opacity: 0.7;
+}
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+.testimonios {
+    background-color: rgb(233, 179, 244);
+    padding-bottom: 4rem;
+
+}
+.testimonios {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.staff { 
+    background-color: rgb(248, 144, 243);
+
+}
+.mapa iframe{
+    width: 100%;
+    aspect-ratio: 1.6;
+}
+html {
+    scroll-behavior: smooth;
+}
+.scroll_section {
+    scroll-margin-top: 60px;
+}
