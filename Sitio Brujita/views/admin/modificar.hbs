@@ -1,0 +1,25 @@
+<div class="container" style="margin: 100px auto;">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modificar el presupuesto</h4>
+            <form method="post"  action="/admin/presupuestos/modificar">
+                <input type="hidden" value="{{Presupuesto.id}}" name="id">
+                <div class="form-group">
+                    <input type="text" placeholder="Titulo" value="{{Presupuesto.Titulo}}" class="form-control"
+                        name="Titulo">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Descripcion" class="form-control"
+                        name="Descripcion">{{Presupuesto.Descripcion}}</textarea>
+                </div>
+                <div class="form-control">
+                    <textarea placeholder="Precio" class="form-control" name="Precio">{{Presupuesto.Precio}}</textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            {{#if error}}
+              <h5>{{message}}</h5>
+            {{/if}}  
+        </div>
+    </div>
+</div>
